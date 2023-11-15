@@ -19,7 +19,7 @@ body {
 }
 
 h1, h2, h3 {
-    font-family: 'Oswald';
+    font-family: 'Oswald',
     sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -50,7 +50,7 @@ header a {
     list-style-type: none;
 }
 
-#menu>li {
+#menu > li {
     margin-bottom: 1em;
 
 }
@@ -99,7 +99,7 @@ main {
 
 #cover-text {
     /* final rgba value sets the opacity so that it is semi-transparent*/
-    background-color: rgba(241, 109, 107, 0.7);
+    background-color: rgba(241, 109, 107, .7);
     font-size: 130%;
     position: absolute;
     bottom: 30px;
@@ -108,8 +108,29 @@ main {
     padding-top: 40px;
     padding-left: 10px;
 }
-#cover-text >h2, #cover-text >h3 {
-    color:#ffffff;
+#cover-text > h2, #cover-text > h3 {
+    color: #ffffff;
+}
+#reasons {
+    width: 90%;
+    margin: 20px auto;
+}
+#reasons h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 280%;
+}
+#benefits-physical > div,
+#benefits-mental > div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+#benefits p {
+    padding: 0 20px;
+}
+#benefits hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
 }
 
 /* Footer */
@@ -133,7 +154,7 @@ main {
         display: block;
         position: relative;
         box-shadow: none;
-        width:fit-content;
+        width: fit-content;
         padding-right: 1rem;
     }
     #menu {
@@ -150,9 +171,9 @@ main {
         line-height: 75px;
         margin: 0 0.5rem;
     }
-    /* main content*/
+    /* Main content*/
     main {
-        /* push main content down to accomodate larger header*/
+        /* Push main content down to accommodate larger header */
         margin-top: 79px;
     }
     /* Hero */
@@ -161,8 +182,8 @@ main {
         right: 50px;
     }
 }
-/* Large devices (Laptops and desktops, 992px and up)*/
-@media screen and (min-width: 992px){
+/* Large devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {
     #menu a:hover{
         border-bottom: 1px solid #3a3a3a;
     }
