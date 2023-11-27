@@ -24,7 +24,7 @@ h1, h2, h3 {
     letter-spacing: 2px;
     color: #252525;
 }
-.hidden-heading: {
+.hidden-heading {
     display: none;
 }
 
@@ -65,9 +65,9 @@ header a {
 nav {
     position: absolute;
     background-color: #ffffff;
-    padding: 0 1rem;
-    left: 0;
     width: 100%;
+    left: 0;
+    padding: 0 1rem;
     box-shadow: 0 2px 2px #3a3a3a;
     display: none;
     top: 100%;
@@ -115,7 +115,7 @@ main {
 #cover-text > h2, #cover-text > h3 {
     color: #ffffff;
 }
-/* Reasons section*/
+/* Reasons section */
 #reasons {
     width: 90%;
     margin: 20px auto;
@@ -161,7 +161,7 @@ main {
 }
 #times div {
     color: #fafafa;
-    background-color: rgba(0, 0, 0, .6);
+    background-color: rgba(0, 0, 0, 0.6);
     padding: 15px;
     text-align: center;
     /* For mobile screen less than 400px, it will not wrap.
@@ -194,7 +194,7 @@ main {
 }
 #signup-form {
     color: #ffffff;
-    background-color: rgba(60, 60, 60, .6);
+    background-color: rgba(60, 60, 60, 0.6);
     padding: 30px;
 }
 #signup-form>h2 {
