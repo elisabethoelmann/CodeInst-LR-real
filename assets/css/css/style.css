@@ -89,7 +89,7 @@ main {
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 47px;
-    /* Enable flex-properties for child elements */
+    /* Enable flex properties for child elements */
     display: flex;
     flex-direction: column;
 }
@@ -155,7 +155,7 @@ main {
 /* Meetup Times section */
 #times {
     background: url('../../images/dublin-city.webp') no-repeat center/cover;
-    /* Handles responivity without the need for a media query */
+    /* Handles responsivity without the need for a media query */
     display: flex;
     flex-wrap: wrap;
 }
@@ -215,7 +215,7 @@ main {
 
 .radio-buttons {
     width: 100%;
-    display:flex;
+    display: flex;
     justify-content: space-between;
 }
 
@@ -239,7 +239,7 @@ main {
 #social-networks i {
     font-size: 160%;
     padding: 5%;
-    color:#3a3a3a;
+    color: #3a3a3a;
 }
 
 /* Media query: for larger or landscape phones (576px and up) */
@@ -275,7 +275,7 @@ main {
         line-height: 75px;
         margin: 0 0.5rem;
     }
-    /* Main content*/
+    /* Main content */
     main {
         /* Push main content down to accommodate larger header */
         margin-top: 79px;
@@ -285,6 +285,7 @@ main {
         width: 300px;
         right: 50px;
     }
+    /* Reason section */
     #benefits-physical, 
     #benefits-mental {
         display: flex;
@@ -304,12 +305,12 @@ main {
     #photos {
         column-count: 3;
     }
-    /*signup section*/
+    /* signup section */
     #signup {
         background-position: center;
         position: relative;
     }
-    signup-form {
+    #signup-form {
         max-width: 400px;
         position: absolute;
         left: 10%;
@@ -336,7 +337,7 @@ main {
 
 /* Larger devices */
 @media screen and (min-width: 1200px){
-    /* reason section  */
+    /* Reason section  */
     #benefits {
         display: flex;
         flex-direction: row;
